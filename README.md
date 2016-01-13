@@ -25,4 +25,8 @@ To run the Stocksplosion app in production, copy the app folder to the productio
 <h2>Unit Tests</h2>
 Unit tests are currently in development. Yes I know. But better late than never :)
 
+<h2>App config</h2>
+There is a config section at the top of app/view1/view1.js where you can set error messages and date ranges without having to plough through the actual app code.
+
+
 If you have any further questions please don’t hesitate to contact me at nika@purkis.ca.
