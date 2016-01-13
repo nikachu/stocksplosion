@@ -1,0 +1,22 @@
+<h2>Stocksplosion</h2>
+<p>Enter stock ticker symbol</p>
+<form name="myForm" novalidate>
+<input type="text" name="code" ng-model="example.text" required ng-pattern="example.word" placeholder="CODE"/>
+<input type="button" value="Lookup" ng-click="lookupStock()" ng-disabled="myForm.code.$dirty && myForm.code.$invalid" />
+</form>
+<div style="color:red" ng-show="myForm.code.$dirty && myForm.code.$invalid">
+	<span ng-show="myForm.code.$error.required">This field is required.</span>
+	<span ng-show="myForm.code.$error.pattern">Code should be 4 uppercase letters.</span>
+</div>
+{{http_error}}
+<hr />
+<p>Company: {{company}}</p>
+<p>Symbol: {{symbol}}</p>
+
+<canvas id="line" class="chart chart-line" chart-data="data"
+  chart-labels="labels" chart-legend="false">
+</canvas> 
+
+<h3>Recommended action: {{advice}}</h3>
+
+

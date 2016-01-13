@@ -1,0 +1,6 @@
+	html,body,.container-fluid {height:100%;}
+    .middle {background: #efefef;}
+    footer {background: #666}
+    .container-fluid {display: table; background: #efefef}
+    nav.navbar {margin-bottom: 0px}
+    input[type=text] {width: 50;}
