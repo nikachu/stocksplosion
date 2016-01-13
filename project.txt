@@ -1,0 +1,61 @@
+Stocksplosion Project Proposal
+
+1 Project Overview
+As the world of stock trading is a fast-paced environment it is paramount to offer a tool for analysts that aids their decision making without further contributing to distractions and noise. We have therefore devised a single-page, web-based application that addresses the main client needs of easy of use, speed and ROI.
+
+2 Objectives
+
+
+2a Ease of use
+The Stocksplosion app is a web-based tool designed to be used on all common devices, including tablets and phones. There is no login  or account required, and the user is presented with a simple interface and clear validation and error messages. The stock summary is presented as a chart which provides the analyst with a quick overview of the stock performance without the need to read longer passages of text.
+
+2b Speed
+Making use of extensively tested and optimised web frameworks and libraries, the application code itself is kept to a minimum. Request to the stocks API are made asynchronously without the need to reload the page.
+
+2c ROI
+The built-in trading advice is a simplified version of the Moving Averages calculation and is designed to give the analyst a good idea of the stock’s performance during the selected period. This will speed up the decision making progress significantly and enable the analyst to attend to more stocks and therefore increase the chance of revenue.
+
+
+3 Project breakdown
+
+3a Research (2 hrs)
+Picking the best technology for the project based on its objectives made up the first step. I chose AngularJS because of its stunningly clever interactions with the HTML templates and its rich component library.  The choice of the angular-seed code as base for this project was based on the fact that it included a standalone webserver, as well as integrated unit tests.
+
+Twitter’s Bootstrap as additional library was the obvious choice to achieve clean, responsive design in the shortest amount of time and ultimately at the lowest cost for the client.
+Future adjustments can be made easily by any developer familiar with the framework.
+
+3b Application design
+Input validation and error messages (1hr)
+
+3c Tailored http request (2hrs)
+To avoid loading the whole API and performing a client-side search for the desired stock, I decided to send individual requests on a per-stock basis. The start date is picked by subtracting 5 days from the current date. Please note: This needs further development as it doesn’t account for start dates in the month prior to the end date.
+
+
+3d Stock performance summary chart (1hr)
+
+3e Trading advice logic (3hrs)
+A considerable amount of consideration went into the logic of how to display the trading advice. My initial thinking was that it would be prudent to know whether the analyst owned a stock or not, as displaying “sell” advice for a stock not owned seemed unhelpful. Since this would have required interactions with a database or local storage of sorts, and possibly a user account, I decided to not further pursue this avenue.
+
+3f HTML and CSS (2 hrs)
+
+3g Environment setup (1hr)
+
+3h Documentation and Proposal (2hrs)
+
+3i Deployment to github and test server (1hr)
+
+3j Basic Tests (2hrs)
+
+
+Total time spent on the “Minimum Viable Product”: 17 hours
+Project Cost @ $150/hour: $2,550
+
+
+Additional work recommended
+Additional Unit tests (~2hrs)
+End to end test (~3hrs)
+
+
+
+
+Contact Nika Purkis nika@purkis.ca +1 613 890 2219
