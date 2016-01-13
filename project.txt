@@ -19,7 +19,7 @@ The built-in trading advice is a simplified version of the Moving Averages calcu
 3 Project breakdown
 
 3a Research (2 hrs)
-Picking the best technology for the project based on its objectives made up the first step. I chose AngularJS because of its stunningly clever interactions with the HTML templates and its rich component library.  The choice of the angular-seed code as base for this project was based on the fact that it included a standalone webserver, as well as integrated unit tests.
+Picking the best technology for the project based on its objectives made up the first step. I chose AngularJS because of its stunningly clever interactions with the HTML templates and its rich component library.  
 
 Twitter’s Bootstrap as additional library was the obvious choice to achieve clean, responsive design in the shortest amount of time and ultimately at the lowest cost for the client.
 Future adjustments can be made easily by any developer familiar with the framework.
@@ -34,7 +34,7 @@ To avoid loading the whole API and performing a client-side search for the desir
 3d Stock performance summary chart (1hr)
 
 3e Trading advice logic (3hrs)
-A considerable amount of consideration went into the logic of how to display the trading advice. My initial thinking was that it would be prudent to know whether the analyst owned a stock or not, as displaying “sell” advice for a stock not owned seemed unhelpful. Since this would have required interactions with a database or local storage of sorts, and possibly a user account, I decided to not further pursue this avenue.
+A considerable amount of consideration went into the logic of how to display the trading advice. My initial thinking was that it would be prudent to know whether the analyst owned a stock or not, as displaying “sell” advice for a stock not owned seemed unhelpful. This however would have gone beyond the scope of the minimum viable project. 
 
 3f HTML and CSS (2 hrs)
 
