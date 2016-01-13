@@ -23,6 +23,6 @@ http://nodejs.org
 To run the Stocksplosion app in production, copy the app folder to the production server. It will be available at http://your_server_path/app/
 
 <h2>Unit Tests</h2>
-Unit tests are currently in development. Yes I know. But late than never :)
+Unit tests are currently in development. Yes I know. But better late than never :)
 
 If you have any further questions please don’t hesitate to contact me at nika@purkis.ca.
